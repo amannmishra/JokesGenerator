@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Joke</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h2 class="title">😂 Daily Joke</h2>
+
+    <!-- Category Selection -->
+    <label for="categorySelect" class="label">Choose a category:</label>
+    <select id="categorySelect" class="dropdown">
+      <option value="music">Music</option>
+      <option value="technology">Technical</option>
+      <option value="random">Random</option>
+    </select>
+    
+    <!-- Button to Fetch Joke -->
+    <button id="getJokeBtn" class="button">Get Joke</button>
+
+    <!-- Display Joke Here -->
+    <div id="jokeDisplay" class="joke-box">Select a category and click "Get Joke".</div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
